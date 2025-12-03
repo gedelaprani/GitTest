@@ -3,7 +3,7 @@ import java.io.*;
 
 public class MainFile {
     public static void main(String[] args) {
-        File inputFile = new File("pg2701.txt");
+        File inputFile = new File("Bible.txt");
         File outputFile = new File("capitalized_output1.txt"); // created behind the scenes
 
         try (
@@ -21,7 +21,7 @@ public class MainFile {
             e.printStackTrace();
         }
 
-        File inputFile2 = new File("pg10.txt");
+        File inputFile2 = new File("WP.txt");
         File outputFile2 = new File("capitalized_output2.txt"); // created behind the scenes
 
         try (
